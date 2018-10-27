@@ -9,8 +9,6 @@ license = "Apache-2.0/MIT"
 repository = "https://github.com/derekdreery/console.web"
 
 [dependencies]
-js-sys = "*"
+js-sys = "0.3"
+web-sys = { version = "0.3", features = ["console"] }
 
-[dependencies.web-sys]
-version = "0.3"
-features = ["console"]
