@@ -1,12 +1,13 @@
 [package]
 name = "console-web"
 description = "A create for writing to the console in wasm (using wasm-bindgen)"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
 edition = "2018"
 keywords = ["wasm", "console", "debugging", "wasm-bindgen", "web-sys"]
 license = "Apache-2.0/MIT"
 repository = "https://github.com/derekdreery/console.web"
+include = ["README.md", "src/**/*.rs", "Cargo.toml"]
 
 [dependencies]
 js-sys = "0.3"
