@@ -3,7 +3,7 @@ Logging to the console in wasm.
 
 [Documentation]
 
-Note that this crate requires the [wasm-bindgen]([github repo][wasm-bindgen.git]) method of targeting 
+Note that this crate requires the [wasm-bindgen] ([github repo][wasm-bindgen.git]) method of targeting 
 `wasm32-unknown-unknown`, which is different from the [stdweb] approach.
 
 [Documentation]: https://docs.rs/console-web/0.1.2/console_web/
